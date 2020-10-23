@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.madlevel4example2.ui.MainActivity">
+    <item
+        android:id="@+id/btn_nav_icon_history"
+        android:icon="@drawable/ic_history_white_24dp"
+        android:title="@string/header_icon_btn"
+        app:showAsAction="ifRoom|ifRoom" />
+    <item
+        android:id="@+id/btn_nav_icon_delete"
+        android:icon="@drawable/ic_delete_white_24dp"
+        app:showAsAction="always" />
+</menu>
